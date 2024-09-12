@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="on">
+<head>
+    <meta charset="UTF-8">
+    <title>Список постів</title>
+</head>
+<body>
+    <p>Список постів</p>
+    {% for post in posts %}
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.published_date }}</p>
+    
+    {% endfor %}
+    
+
+
+</body>
+
+
+</html>
